@@ -23,6 +23,12 @@ distributions or which can be downloaded and build from source from:
 
 http://ohse.de/uwe/software/lrzsz.html
 
+- Install lrzsz on your mac:
+
+```shell
+sudo brew install lrzsz
+```
+
 A recent version of iTerm2 is required for Mac OS X to make things work, downloadable from:
 
 http://www.iterm2.com/
@@ -34,7 +40,8 @@ the additional tool "growlnotify" is needed.
 
 The script iterm2-zmodem should by copied to /usr/local/bin. 
 
-It's required to setup the following "Triggers" in iTerm2:
+- Set up two triggers in iTerm2's [preference] -> [profile] -> [advanced] -> [triggers] -> [edit]
+
 
     Regular expression: \*\*B0100
     Action:             Run Coprocess
